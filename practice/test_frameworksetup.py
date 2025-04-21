@@ -3,8 +3,8 @@ import json
 import pytest
 from playwright.sync_api import Page, Playwright, expect
 
-from course_practice.pageObjects.dashboard import DashboardPage
-from course_practice.pageObjects.login import LoginPage
+from .pageObjects.dashboard import DashboardPage
+from .pageObjects.login import LoginPage
 from utils.apiBaseFramework import APIUtils
 
 #create Json file with credentials --> utils --> this will convert my json file to python

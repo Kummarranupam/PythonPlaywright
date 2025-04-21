@@ -3,8 +3,8 @@ from pytest_bdd import given, when, then, parsers, scenarios
 from playwright.sync_api import Playwright
 
 
-from course_practice.pageObjects.login import LoginPage
-from course_practice.utils.apiBaseFramework import APIUtils
+from .pageObjects.login import LoginPage
+from .utils.apiBaseFramework import APIUtils
 
 scenarios('features/orderTransaction.feature')
 
