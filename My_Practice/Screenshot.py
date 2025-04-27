@@ -1,6 +1,8 @@
 from playwright.sync_api import sync_playwright
 
+
 def test_take_screenshot():
+
     # Initialize Playwright
     with sync_playwright() as p:
         # Launch a browser (Chromium in this case)
@@ -15,9 +17,13 @@ def test_take_screenshot():
         page.locator(".gh-text").screenshot(path="test_shot2.png")
         page.screenshot(path="test_screenfull2.png")
         page.screenshot(path="test_screens2.png", full_page=True)
+
         print("Screenshot saved as new screenshot.png")
         # Close the browser
         browser.close()
 
 # Call the function
-test_take_screenshot()
+
+
+take_screenshot()
+
