@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright
 
 
-def test_take_screenshot():
+def take_screenshot():
 
     # Initialize Playwright
     with sync_playwright() as p:
