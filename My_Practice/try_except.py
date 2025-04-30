@@ -8,5 +8,5 @@ def divide_by(num1, num2):
     finally:
         print("Division complete.")
 
-print(divide_by(10, 5)) # prints 2.0 and "Division complete."
-print(divide_by(10, 0)) # prints "Error: Cannot divide a number by zero." and "Division complete."
+#print(divide_by(10, 5)) # prints 2.0 and "Division complete."
+divide_by(10, 0)# prints "Error: Cannot divide a number by zero." and "Division complete."
