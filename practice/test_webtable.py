@@ -1,3 +1,5 @@
+import time
+
 from playwright.sync_api import Page, expect
 
 
@@ -11,5 +13,7 @@ def test_webtablehandle(page:Page):
 
     ricerow = page.locator("tr").filter(has_text="Rice")
     expect(ricerow.locator("td").nth(pricecolvalue)).to_have_text("37")
+
+    time.sleep(5)
 
 

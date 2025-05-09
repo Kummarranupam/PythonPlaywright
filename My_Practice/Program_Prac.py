@@ -1,13 +1,13 @@
 # Program to reverse a string
 
-strng = "Anupam Kumar"
-strng1=strng[::-1]
-print(strng1)
-
-strng = "Anupam Kumar"
-strng2=strng.split()
-reverse = " ".join(strng2[::-1])
-print(reverse)
+# strng = "Anupam Kumar"
+# strng1=strng[::-1]
+# print(strng1)
+#
+# strng = "Anupam Kumar"
+# strng2=strng.split()
+# reverse = " ".join(strng2[::-1])
+# print(reverse)
 
 # Program to check string is Palindrome(front=back)
 
@@ -44,7 +44,7 @@ def factorial(n):
     return n* factorial(n-1)
 print(factorial(5))
 
-#Program to pcheck Prime number
+#Program to check Prime number
 
 num = int(input("enter the number:"))
 flag =0

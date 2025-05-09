@@ -4,5 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.13" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="pythonBasics" />
+    <orderEntry type="module" module-name="Practice" />
+    <orderEntry type="module" module-name="Python_Playwright_PyCharm_PyTest" />
   </component>
 </module>

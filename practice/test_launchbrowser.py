@@ -10,8 +10,8 @@ def test_launchbrowser(playwright):
 
 # if only want to run test in Chrome or Edge then use directly page fixture(page) - class(Page)
 
-def test_playwrightshortcut(page:Page):
-    page.goto("https://rahulshettyacademy.com/")
+#def test_playwrightshortcut(page:Page):
+   # page.goto("https://rahulshettyacademy.com/")
      
 
     
