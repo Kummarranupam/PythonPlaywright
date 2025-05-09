@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Practice/.idea/Practice.iml" filepath="$PROJECT_DIR$/../Practice/.idea/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonPlaywright.iml" filepath="$PROJECT_DIR$/.idea/PythonPlaywright.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python_Playwright_PyCharm_PyTest/.idea/Python_Playwright_PyCharm_PyTest.iml" filepath="$PROJECT_DIR$/../Python_Playwright_PyCharm_PyTest/.idea/Python_Playwright_PyCharm_PyTest.iml" />
+      <module fileurl="file://D:/Playwright/pythonBasics/pythonBasics/.idea/pythonBasics.iml" filepath="D:/Playwright/pythonBasics/pythonBasics/.idea/pythonBasics.iml" />
     </modules>
   </component>
 </project>
