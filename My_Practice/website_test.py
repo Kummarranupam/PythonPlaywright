@@ -7,19 +7,20 @@ def test_website(playwright: Playwright):
     context = browser.new_context()
     page = context.new_page()
     page.goto("https://money.rediff.com/gainers")
+    page.wait_for_selector("table.dataTable")
     column_count = len(page.query_selector_all("table.dataTable thead tr th"))
     #print("Total column Size : ", column_count)
-    print(f"Total Column Count: {column_count}")
+    print(f"\nTotal Column Count: {column_count}")
 
     #row_count = len(page.query_selector_all("table.dataTable tbody tr"))
     rows = page.query_selector_all("table.dataTable tbody tr")
     row_count=len(rows)
     #print("Total Row Size:",row_count)
 
-    print(f"Total Row Count: {row_count}")
+    print(f"\nTotal Row Count: {row_count}")
 
     print("\n--- Table Data ---\n")
-    for row in rows:
-        cells = row.query_selector_all("td")
-        row_data = [cell.inner_text().strip() for cell in cells]
-        print(" | ".join(row_data))
+    # for row in rows:
+    #     cells = row.query_selector_all("td")
+    #     row_data = [cell.inner_text().strip() for cell in cells]
+    #     print(" | ".join(row_data))
