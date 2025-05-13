@@ -20,7 +20,7 @@ def test_website(playwright: Playwright):
     print(f"\nTotal Row Count: {row_count}")
 
     print("\n--- Table Data ---\n")
-    # for row in rows:
-    #     cells = row.query_selector_all("td")
-    #     row_data = [cell.inner_text().strip() for cell in cells]
-    #     print(" | ".join(row_data))
+    for row in rows:
+        cells = row.query_selector_all("td")
+        row_data = [cell.inner_text().strip() for cell in cells]
+        print(" | ".join(row_data))
