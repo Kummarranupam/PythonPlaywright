@@ -27,6 +27,7 @@ with sync_playwright() as p:
     #page=window_ID
     #Parent_page.get_by_placeholder("Username").fill("Admin")
     page.get_by_placeholder("Username").fill("Admin")
+
     #Parent_page.get_by_placeholder("Password").fill("admin123")
     page.get_by_placeholder("Password").fill("admin123")
 
