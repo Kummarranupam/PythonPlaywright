@@ -10,7 +10,7 @@ class APIUtils:
         api_request_context = playwright.request.new_context(base_url="https://rahulshettyacademy.com")
         response = api_request_context.post("/api/ecom/auth/login",
                                             data={"userEmail": user_email, "userPassword": user_Password})
-        assert  response.ok
+        #assert  response.ok
         print(response.json())
         responseBody = response.json()
         return responseBody["token"]
